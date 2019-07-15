@@ -1,0 +1,12 @@
+cluster_prefix = "SomeNamePrefix"
+flavor_name = "4GB Standard Instance"
+#flavor_name = "512MB Standard Instance"
+#image_name = "Ubuntu 16.04 LTS (Xenial Xerus) (PVHVM)"
+image_name = "Ubuntu 18.04 LTS (Bionic Beaver) (PVHVM)"
+internal_network_name = "AnInternalNetwork"
+internal_network_uuid = "11111111-1111-0000-1111-00000000"
+ssh_user = "root"
+ssh_key = "/location_to_keys/key-name"
+ssh_keypair = "key-name"
+ssh_allow_ip = ["#.#.#.#","#.#.#.#","#.#.#.#"]
+ssh_alt_user = "newuser"
